@@ -1,0 +1,25 @@
+.datapicker-container {
+  position: relative;
+}
+.datepicker-input-container {
+}
+.datapicker-calendar-container {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 58px;
+}
+.datepicker-input {
+  cursor: pointer;
+  user-select: none;
+  caret-color: transparent;
+}
+
+.react-calendar__tile--now {
+  background: #fb246a !important;
+  color: white;
+}
+
+.react-calendar__tile--active {
+  background: #010b1d !important;
+}

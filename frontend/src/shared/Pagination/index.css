@@ -1,0 +1,22 @@
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+}
+.pagination-item {
+  border: 0;
+  position: relative;
+  box-shadow: none;
+  background: transparent;
+  color: #242b5e;
+  padding: 10px;
+  outline: 0;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+.pagination-item.selected {
+  background: #242b5e;
+  color: white;
+  border: 1px solid #f0f0f0;
+}

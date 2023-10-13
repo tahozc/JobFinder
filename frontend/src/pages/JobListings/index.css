@@ -1,0 +1,113 @@
+.joblistings-container {
+  background-color: white;
+}
+
+.joblistings-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0px;
+}
+.joblisting-filter-column {
+  width: 30%;
+}
+.joblisting-space {
+  width: 5%;
+}
+.joblisting-lists-column {
+  width: 65%;
+}
+.joblisting-filter-container {
+  border: 1px solid #ededed;
+  padding: 20px;
+}
+
+.joblisting-filter-header {
+  color: #1e2147;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.joblisting-filter-header-img {
+  color: rgb(155, 236, 155);
+  margin-right: 5px;
+}
+.joblisting-filter-item {
+  margin-top: 20px;
+}
+.joblisting-filter-item-heading {
+  color: #1e2147;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.joblisting-checkbox-item {
+  margin-top: 10px;
+}
+.joblisting-filter-slider-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #757575;
+}
+.joblisting-filter-slider-values {
+}
+
+.rc-slider-track {
+  background-color: #fb246a !important; /* Change to your desired color */
+}
+
+.rc-slider-track {
+  background-color: #fb246a; /* Change to your desired color */
+}
+
+/* Increase handle size */
+.rc-slider-handle {
+  border-color: #fb246a; /* Change to your desired color */
+  z-index: 1;
+}
+.rc-slider-handle:hover {
+  border-color: #df8ba7;
+}
+.rc-slider-handle:active {
+  border-color: #df8ba7 !important;
+  box-shadow: 0 0 5px #df8ba7 !important;
+  cursor: grabbing;
+}
+.joblisting-filter-item-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.joblisting-filter-item-column-space {
+  /* width: 10%; */
+}
+.joblisting-filter-item-column {
+  width: 45%;
+}
+.joblisting-count {
+  color: #1e2147;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.joblistings-pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.joblisting-filter-item-column-reset {
+  color: #fb246a;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 5px;
+  user-select: none;
+}
+.joblisting-filter-item-column-reset.isEmpty {
+  color: transparent;
+}

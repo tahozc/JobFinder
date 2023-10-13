@@ -1,0 +1,46 @@
+.auth-steps-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.auth-step-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+}
+.auth-step-number {
+  background-color: #010b1d;
+  width: 40px;
+  height: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 3;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.auth-step-text {
+  margin-top: 5px;
+  color: #010b1d;
+}
+.auth-step-connector {
+  position: absolute;
+  background-color: #e5e6e9;
+  width: 200px;
+  height: 5px;
+  top: 18px;
+  left: 50px;
+  z-index: 2;
+}
+.auth-step-number.completed,
+.auth-step-connector.completed {
+  background-color: #fb246a;
+}

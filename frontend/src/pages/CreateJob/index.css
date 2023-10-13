@@ -1,0 +1,52 @@
+.create-job-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.create-job-header {
+  padding: 10px 20px;
+  font-size: 30px;
+  font-family: Barlow, sans-serif;
+}
+.create-job-card {
+  background-color: white;
+  width: 50%;
+  /* height: 500px; */
+  box-shadow: 0px 22px 57px 0px rgba(34, 41, 72, 0.05);
+  border-radius: 25px;
+  margin-bottom: 50px;
+  padding: 10px 0px;
+  position: relative;
+}
+.create-job-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.create-job-column {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  width: 50%;
+}
+.create-job-row.signle-item {
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.create-job-row.signle-item .auth-form-item {
+  width: 100%;
+  box-sizing: border-box;
+}
+.joblisting-filter-item-column-reset {
+  color: #fb246a;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 5px;
+  user-select: none;
+}
+.joblisting-filter-item-column-reset.isEmpty {
+  color: transparent;
+}

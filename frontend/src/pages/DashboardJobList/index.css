@@ -1,0 +1,66 @@
+.dashboardlist-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dashboardlist-items-container {
+  width: 70%;
+  margin: 0% 15%;
+}
+.dashboardlist-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.dashboardlist-item .job-listing-item-main {
+  margin-bottom: 0px;
+  width: 75%;
+}
+.dashboardlist-item-icon {
+  padding: 15px;
+  color: white;
+  border-radius: 50%;
+  font-size: 15px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.dashboardlist-item-icon.edit {
+  background-color: #010b1d;
+  color: white;
+}
+
+.dashboardlist-item-icon.delete {
+  background-color: #fb246a;
+  color: white;
+}
+.dashboardlist-items-add-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 6%;
+}
+
+.dashboardlist-item-pagination-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.no-jobs-found {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

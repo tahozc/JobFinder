@@ -1,0 +1,6 @@
+.layout-container > :first-child {
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  box-sizing: border-box;
+}

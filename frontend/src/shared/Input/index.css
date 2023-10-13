@@ -1,0 +1,37 @@
+.input-container {
+  position: relative;
+  box-sizing: border-box;
+}
+.input {
+  width: 100%;
+  border: 1px solid #e5e6e9;
+  border-radius: 0px;
+  height: 48px;
+  padding-left: 18px;
+  font-size: 13px;
+  background: transparent;
+  box-sizing: border-box;
+}
+.input.input-icon{
+  padding-left: 38px;
+}
+.input-icon-container {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  color: #010b1d;
+}
+.input-icon-container svg {
+  width: 20px;
+  height: auto;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+

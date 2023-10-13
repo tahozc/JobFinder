@@ -1,0 +1,89 @@
+.joblistingdetail-container {
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+.joblistingdetail-row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.joblistingdetail-info-container {
+  width: 60%;
+}
+.joblistingdetail-apply-container {
+  width: 30%;
+  margin-left: 10%;
+}
+.joblistingdetail-text-container {
+  margin-top: 20px;
+}
+.joblistingdetail-text-header {
+  color: #28395a;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.joblistingdetail-text-desc {
+  font-family: "Muli", sans-serif;
+  color: #506172;
+  font-size: 16px;
+  line-height: 30px;
+}
+.joblistingdetail-bullet-point {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+.joblistingdetail-bullet-point span {
+  color: #010b1d;
+  padding-right: 5px;
+}
+.joblistingdetail-joboverview-container {
+  width: 100%;
+  padding: 30px 30px 30px 30px;
+  border: 1px solid #ededed;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.joblistingdetail-joboverview-header {
+  color: #28395a;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.joblistingdetail-joboverview-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.joblistingdetail-applynow-btn-container {
+  padding-top: 20px;
+}
+.joblistingdetail-generalInfo-container {
+  margin-top: 20px;
+}
+.joblistingdetail-generalInfo-item {
+  display: flex;
+  flex-direction: row;
+  color: #5b5c6e;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.joblistingdetail-generalInfo-item span {
+  color: #5b5c6e;
+  font-weight: 700;
+  font-size: 18px;
+  padding-right: 18px;
+}
+.joblistingdetail-applynow-text{
+  margin-top: 20px;
+}

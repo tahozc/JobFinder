@@ -1,0 +1,74 @@
+.job-listing-item-main {
+  background-color: white;
+
+  border-radius: 10px;
+  margin-bottom: 30px;
+
+  padding: 20px;
+}
+.joblistingItem-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.job-listing-item-main:hover {
+  box-shadow: 0px 22px 57px 0px rgba(34, 41, 72, 0.05);
+}
+.joblistingItem-text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+  width: 72%;
+}
+.joblistingItem-text-description {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.joblistingItem-text-header {
+  color: #28395a;
+  font-size: 24px;
+}
+.joblistingItem-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  width: 13%;
+}
+.joblistingItem-jobtiming-container {
+  width: 15%;
+}
+.joblistingItem-text-description-item {
+  margin-right: 48px;
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.8;
+}
+.joblistingItem-text-description-item span {
+  margin-right: 5px;
+}
+.joblistingItem-jobtiming {
+  color: #8b92dd;
+  border: 1px solid #8b92dd;
+  padding: 5px 20px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+.joblistingItem-jobtiming:hover {
+  color: #fff;
+  background: #8b92dd;
+  border: 1px solid transparent;
+}
+.joblistingItem-postedtime {
+  color: #454d72;
+}
+.joblistingItem-btn-container {
+  margin-top: 20px;
+}
+.joblistingItem-btn-container  > :not(:first-child) {
+  margin-left: 20px;
+}

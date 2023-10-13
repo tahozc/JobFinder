@@ -1,0 +1,49 @@
+.button {
+  background: #fb246a;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0;
+  padding: 27px 44px;
+  margin: 10px;
+  cursor: pointer;
+  position: relative;
+  border: 0;
+  overflow: hidden;
+  margin: 0;
+  transition: all 0.4s ease-in-out;
+  background: linear-gradient(to left, #fb246a 50%, #da2461 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.button.alt {
+  background: linear-gradient(to left, transparent 50%, #fb246a 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  border: 1px solid #fb246a;
+  color: #fb246a;
+}
+
+.button.primary {
+  background: linear-gradient(to left, #010b1d 50%, #081c41 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  border: 1px solid #010b1d;
+  color: white;
+}
+
+.button.secondary {
+  background: linear-gradient(to left, transparent 50%, #010b1d 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  border: 1px solid #010b1d;
+  color: #010b1d;
+}
+
+
+.button:hover {
+  background-position: left bottom;
+  color: white;
+}

@@ -1,0 +1,34 @@
+.applications-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.auth-accordian-container .auth-accordian-item {
+  background-color: #f8f8ff;
+}
+.auth-accordian-container .auth-accordian-item.selected {
+  background-color: #010b1d;
+}
+.applications-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.applications-pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.applications-item-container {
+  width: 50%;
+  box-sizing: border-box;
+}
+.applications-item {
+  width: 100%;
+}

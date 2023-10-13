@@ -1,0 +1,35 @@
+.profiledetails-work-item {
+  margin-top: 20px;
+}
+.profiledetails-work-header {
+  margin-top: 10px;
+}
+.profiledetails-work-item-delete-row {
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.profiledetails-work-item-delete {
+  color: white;
+  background-color: #fb246a;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.job-form-error {
+  color: transparent;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.job-form-error.show {
+  color: #fb246a;
+}

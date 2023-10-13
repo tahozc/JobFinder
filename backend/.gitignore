@@ -1,0 +1,41 @@
+# Node related
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+
+# Cache & Temporary files
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# Build directories
+/dist
+/build
+
+# Environment configs
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

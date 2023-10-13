@@ -1,0 +1,20 @@
+.companyjobs-container {
+  margin-top: 50px;
+}
+.companyjobs-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.companyjobs-item-container .job-listing-item-main{
+  width: 50%;
+}
+.companyjobs-pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
